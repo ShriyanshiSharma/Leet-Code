@@ -18,12 +18,11 @@ Constraints:
 // CPP Solution
 class Solution {
 public:
-    int findDuplicate(vector<int>& nums) {
-        int cnt = 1;
-		for(int i = 0; i < arr.size()-1; i++) {
-			for(int j = i+1; j < arr.size(); j++) {
-				if(arr[i] == arr[j]) return arr[i];
-			}
+    int findDuplicate(vector<int>& arr) {
+        sort(arr.begin(), arr.end());
+		for(int i = 1; i < arr.size(); i++) {
+			if(arr[i] == arr[i-1])
+				return arr[i];
 		}
 		return -1;
     }
