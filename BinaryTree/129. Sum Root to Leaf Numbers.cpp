@@ -37,7 +37,7 @@
 // The number of nodes in the tree is in the range [1, 1000].
 // 0 <= Node.val <= 9
 // The depth of the tree will not exceed 10./**
- * Definition for a binary tree node.
+/* Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
