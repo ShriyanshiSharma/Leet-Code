@@ -1,6 +1,6 @@
-// 106. Construct Binary Tree from Inorder and Postorder TraversalGiven two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.
+// 106. Construct Binary Tree from Inorder and Postorder Traversal
 
- 
+// Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.
 
 // Example 1:
 
@@ -10,10 +10,10 @@
 // Example 2:
 
 // Input: inorder = [-1], postorder = [-1]
-// Output: [-1]
- 
+// Output: [-1]kl
+ jdfk
 
-// Constraints:
+// Constraints:juh
 
 // 1 <= inorder.length <= 3000
 // postorder.length == inorder.length
