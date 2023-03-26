@@ -50,9 +50,7 @@ public:
     }
     
     TreeNode* buildTreeHelper(vector<int>& inorder, vector<int>& postorder, int inorderStart, int inorderEnd, int postorderStart, int postorderEnd, unordered_map<int, int>& index) {
-        if (inorderStart > inorderEnd || postorderStart > postorderEnd) {
-            return nullptr;
-        }
+        if (inorderStart > inorderEnd || postorderStart > postorderEnd) return nullptr;
         int rootVal = postorder[postorderEnd];
         TreeNode* root = new TreeNode(rootVal);
         int inorderRootIndex = index[rootVal];
